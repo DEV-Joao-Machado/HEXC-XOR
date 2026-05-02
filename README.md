@@ -1,0 +1,2 @@
+# HEXC-XOR
+Encriptador XOR
