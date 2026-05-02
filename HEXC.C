@@ -1,4 +1,4 @@
-#include <stdio.h>
+f#include <stdio.h>
 #include <stdlib.h>
 #include <direct.h>
 #include <unistd.h>
@@ -41,7 +41,7 @@ int main(int argc, char *argv[]){
     Sleep(1000);
     printf(" .\n\n");
 
-    while ((byte = fgetc (input)) != EOF ) { //Leia cada caractere do arquivo até encontrar NADA 
+    while ((byte = fgetc (input)) != EOF ) { //Leia cada caractere do arquivo até encontrar EOF
         printf("%d", byte);
 
 
